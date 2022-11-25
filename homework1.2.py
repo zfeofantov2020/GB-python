@@ -11,7 +11,7 @@
 
 x = int (input("Input X > 0 or X < 0 , but =!0  'X':" ))
 y = int (input("Input Y > 0 , or Y < 0 , but != 0 'Y':" ))
-if x == 0 or y == 0 :
+while x == 0 or y == 0 :
     print("You entered X or Y == 0 , try one more time")
     x = int (input("Input 'X':" ))
     y = int (input("Input 'Y':" ))
